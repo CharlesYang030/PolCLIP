@@ -6,3 +6,6 @@ Word sense disambiguation (WSD) is divided into two subtasks: textual word sense
 
 #### The PolCLIP model:
 ![image](./model.png)
+
+#### Illustration of Multimodal-WSD:
+![image](./mwsd.png)
