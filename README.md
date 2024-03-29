@@ -12,7 +12,7 @@ Word sense disambiguation (WSD) is divided into two subtasks: textual word sense
 ---
 
 ### Environment
-Our code has been implemented on Pytorch 1.8.1. To reproduce our experiments, please run: <pre/>pip install -r requirements.txt</pre> 
+Our code has been implemented on Pytorch 2.0.1. To reproduce our experiments, please run: <pre/>pip install -r requirements.txt</pre> 
 
 ### 1. USAGE
 #### 1.Download the datasets: 
