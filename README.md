@@ -23,8 +23,9 @@ Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download]() | [D
 Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download]() | [Download]()
 
 (2) The benchmarks of Textual-WSD and Visual-WSD.
-Download [the XL-WSD data](https://sapienzanlp.github.io/xl-wsd/).
-Download [the V-WSD data](https://raganato.github.io/vwsd/).
+Download the XL-WSD data at https://sapienzanlp.github.io/xl-wsd/.
+
+Download the V-WSD data at https://raganato.github.io/vwsd/.
 
 #### 2. REPRODUCE OUR WORK
 (1) To train from the scratch, please run:
@@ -40,6 +41,24 @@ python main.py --use_checkpoint --evaluate
 
 #### 3. FINE-TUNE D-GPT
 For users with OpenAI account:
+
 (1) If you want to reproduce the process of fine-tuning a disambiguation-oriented GPT-3.5 (approximately 175 mins and $42.5), please download the fine-tuning corpus that we used [Download]().
-(2) You need to upload the fine-tuning corpus to [the OpenAI fine-tuning platform](https://raganato.github.io/vwsd/). You can also find simple fine-tuning instructions [here](https://platform.openai.com/docs/guides/fine-tuning).
-(3) After fine-tuning, you will get a D-GPT that can be used to generate lexical definition for ambiguous target words within different contexts.
+
+(2) You need to upload the fine-tuning corpus to the OpenAI fine-tuning platform (https://raganato.github.io/vwsd/). 
+
+You can also find simple fine-tuning instructions at https://platform.openai.com/docs/guides/fine-tuning.
+
+(3) After fine-tuning, you will get a D-GPT that is stored in your own OpenAI account.
+
+(4) Before testing, you need to use D-GPT to generate lexical difinition for ambiguous target words within different contexts by following `D-GPT.py`.
+
+For users without OpenAI account:
+
+(1) You can directly execute `D-GPT.py` to ignore the fine-tuning process.
+
+(2) Our D-GPT model name: `ft:gpt-3.5-turbo-1106:2023python::8RyWR8GA`
+
+(3) Our API key: `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`
+
+### Acknowledgement
+PolCLIP benifits from [BabelNet](https://babelnet.org/) and [BabelPic](https://sapienzanlp.github.io/babelpic/). The original authors and their open-sourcing are appreciated.
