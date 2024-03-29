@@ -21,14 +21,14 @@ Our code has been implemented on Pytorch 2.0.1. To reproduce our experiments, pl
 
 Datasets | Instance | Instance type | Image | Image Size | Image Link | Metadata Size | Metadata Link
 --- | :---: | :---: | :---: | :---: | :---: | :---: | :---:
-Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download]() | 3.1GB | [Download]()
-Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download]() | 0.97GB | [Download]()
+Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download](https://drive.google.com/drive/folders/175fA1fP9yToMYl8uxqcnMYIxBjHypcyV?usp=sharing) | 3.1GB | [Download](https://drive.google.com/drive/folders/175fA1fP9yToMYl8uxqcnMYIxBjHypcyV?usp=sharing)
+Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download](https://drive.google.com/drive/folders/175fA1fP9yToMYl8uxqcnMYIxBjHypcyV?usp=sharing) | 0.97GB | [Download](https://drive.google.com/drive/folders/175fA1fP9yToMYl8uxqcnMYIxBjHypcyV?usp=sharing)
 
 (2) The benchmarks of Textual-WSD and Visual-WSD.
 
-Download the XL-WSD data at https://sapienzanlp.github.io/xl-wsd/.
+Download the XL-WSD data at [https://sapienzanlp.github.io/xl-wsd/](https://sapienzanlp.github.io/xl-wsd/).
 
-Download the V-WSD data at https://raganato.github.io/vwsd/.
+Download the V-WSD data at [https://raganato.github.io/vwsd/](https://raganato.github.io/vwsd/).
 
 ### 2. REPRODUCE OUR WORK
 (1) To train from the scratch, please run:
@@ -46,11 +46,11 @@ python main.py --use_checkpoint --evaluate
 ### 3. FINE-TUNE D-GPT
 For users with OpenAI account:
 
-(1) If you want to reproduce the process of fine-tuning a disambiguation-oriented GPT-3.5 (approximately 175 mins and $42.5), please download the fine-tuning corpus that we used. [Link](https://drive.google.com/file/d/1qdqt9n3pfnJf9nM3eBnhuxXggDv-1ExR/view?usp=sharing)
+(1) If you want to reproduce the process of fine-tuning a disambiguation-oriented GPT-3.5 (approximately 175 mins and $42.5), please download the fine-tuning corpus that we used. [Link: https://drive.google.com/file/d/1qdqt9n3pfnJf9nM3eBnhuxXggDv-1ExR/view?usp=sharing](https://drive.google.com/file/d/1qdqt9n3pfnJf9nM3eBnhuxXggDv-1ExR/view?usp=sharing)
 
-(2) You need to upload the fine-tuning corpus to the OpenAI fine-tuning platform (https://raganato.github.io/vwsd/). 
+(2) You need to upload the fine-tuning corpus to the OpenAI fine-tuning platform ([https://platform.openai.com/finetune](https://platform.openai.com/finetune)). 
 
-You can find simple fine-tuning instructions at the OpenAI official guideline (https://platform.openai.com/docs/guides/fine-tuning) and Appendix B in our paper.
+You can find simple fine-tuning instructions at the OpenAI official guideline ([https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)) and Appendix B in our paper.
 
 (3) After fine-tuning, you will get a D-GPT that is stored in your own OpenAI account.
 
