@@ -23,6 +23,7 @@ Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download]() | [D
 Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download]() | [Download]()
 
 (2) The benchmarks of Textual-WSD and Visual-WSD.
+
 Download the XL-WSD data at https://sapienzanlp.github.io/xl-wsd/.
 
 Download the V-WSD data at https://raganato.github.io/vwsd/.
