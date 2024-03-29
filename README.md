@@ -35,7 +35,7 @@ Download the V-WSD data at https://raganato.github.io/vwsd/.
 python main.py
 ```
 
-(2)To evaluate using the best checkpoint, please run:
+(2) To evaluate using the best checkpoint, please run:
 ```.
 python main.py --use_checkpoint --evaluate 
 ```
