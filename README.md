@@ -44,11 +44,11 @@ python main.py --use_checkpoint --evaluate
 #### 3. FINE-TUNE D-GPT
 For users with OpenAI account:
 
-(1) If you want to reproduce the process of fine-tuning a disambiguation-oriented GPT-3.5 (approximately 175 mins and $42.5), please download the fine-tuning corpus that we used [Download]().
+(1) If you want to reproduce the process of fine-tuning a disambiguation-oriented GPT-3.5 (approximately 175 mins and $42.5), please download the fine-tuning corpus that we used [Download](https://drive.google.com/file/d/1qdqt9n3pfnJf9nM3eBnhuxXggDv-1ExR/view?usp=sharing).
 
 (2) You need to upload the fine-tuning corpus to the OpenAI fine-tuning platform (https://raganato.github.io/vwsd/). 
 
-You can also find simple fine-tuning instructions at https://platform.openai.com/docs/guides/fine-tuning.
+You can find simple fine-tuning instructions at the OpenAI official guideline (https://platform.openai.com/docs/guides/fine-tuning) and Appendix B in our paper.
 
 (3) After fine-tuning, you will get a D-GPT that is stored in your own OpenAI account.
 
