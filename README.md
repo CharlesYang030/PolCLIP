@@ -58,11 +58,11 @@ You can find simple fine-tuning instructions at the OpenAI official guideline ([
 
 For users without OpenAI account:
 
-(1) You can directly execute `D-GPT.py` to ignore the fine-tuning process.
+(1) Our D-GPT model name: `ft:gpt-3.5-turbo-1106:2023python::8RyWR8GA`
 
-(2) Our D-GPT model name: `ft:gpt-3.5-turbo-1106:2023python::8RyWR8GA`
+(2) Our API key: `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`
 
-(3) Our API key: `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`
+(3) Before executing `D-GPT.py`, you can get our fine-tuned D-GPT model by replacing the model name and the API key with our model name and our API key.
 
 ---
 
