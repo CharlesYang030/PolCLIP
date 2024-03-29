@@ -60,6 +60,7 @@ For users without OpenAI account:
 (2) Our D-GPT model name: `ft:gpt-3.5-turbo-1106:2023python::8RyWR8GA`
 
 (3) Our API key: `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`
+
 ---
 
 ### Acknowledgement
