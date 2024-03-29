@@ -18,8 +18,8 @@ Our code has been implemented on Pytorch 2.0.1. To reproduce our experiments, pl
 #### 1.Download the datasets: 
 (1) If you are interested in our disambiguation-oriented image-sense dataset, you can click the following links to download the different datasets separately.
 
-Datasets | Instance | Instance type | Image | Size | Link | Metadata
---- | :---: | :---: | :---: | :---: | :---: | :---:
+Datasets | Instance | Instance type | Image | Image Size | Image Link | Metadata Size | Metadata Link
+--- | :---: | :---: | :---: | :---: | :---: | :---: | :---:
 Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download]() | [Download]()
 Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download]() | [Download]()
 
