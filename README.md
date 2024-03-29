@@ -39,6 +39,7 @@ python main.py
 ```.
 python main.py --use_checkpoint --evaluate 
 ```
+
 ---
 
 #### 3. FINE-TUNE D-GPT
