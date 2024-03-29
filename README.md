@@ -20,8 +20,8 @@ Our code has been implemented on Pytorch 2.0.1. To reproduce our experiments, pl
 
 Datasets | Instance | Instance type | Image | Image Size | Image Link | Metadata Size | Metadata Link
 --- | :---: | :---: | :---: | :---: | :---: | :---: | :---:
-Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download]() | [Download]()
-Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download]() | [Download]()
+Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download]() | 3.1GB | [Download]()
+Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download]() | 0.97GB | [Download]()
 
 (2) The benchmarks of Textual-WSD and Visual-WSD.
 
