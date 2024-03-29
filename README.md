@@ -16,7 +16,7 @@ Word sense disambiguation (WSD) is divided into two subtasks: textual word sense
 Our code has been implemented on Pytorch 2.0.1. To reproduce our experiments, please run: <pre/>pip install -r requirements.txt</pre> 
 
 ### 1. USAGE
-#### 1.Download the datasets: 
+#### Download the datasets: 
 (1) If you are interested in our disambiguation-oriented image-sense dataset, you can click the following links to download the different datasets separately.
 
 Datasets | Instance | Instance type | Image | Image Size | Image Link | Metadata Size | Metadata Link
@@ -30,7 +30,7 @@ Download the XL-WSD data at https://sapienzanlp.github.io/xl-wsd/.
 
 Download the V-WSD data at https://raganato.github.io/vwsd/.
 
-#### 2. REPRODUCE OUR WORK
+### 2. REPRODUCE OUR WORK
 (1) To train from the scratch, please run:
 ```.
 python main.py
@@ -43,7 +43,7 @@ python main.py --use_checkpoint --evaluate
 
 ---
 
-#### 3. FINE-TUNE D-GPT
+### 3. FINE-TUNE D-GPT
 For users with OpenAI account:
 
 (1) If you want to reproduce the process of fine-tuning a disambiguation-oriented GPT-3.5 (approximately 175 mins and $42.5), please download the fine-tuning corpus that we used. [Link](https://drive.google.com/file/d/1qdqt9n3pfnJf9nM3eBnhuxXggDv-1ExR/view?usp=sharing)
