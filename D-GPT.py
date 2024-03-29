@@ -3,7 +3,7 @@ import os
 
 from tqdm import tqdm
 from openai import OpenAI
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='YOUR API KEY')
 
 dir = 'semeval_data'
 json_path = os.listdir(dir)
@@ -21,7 +21,7 @@ for path in json_path:
     answer = messages[2]['content']
 
     response = client.chat.completions.create(
-      model="ft:gpt-3.5-turbo-1106:2023python::8RyWR8GA",
+      model="YOUR D-GPT NAME",
       messages=[
         {"role": "system", "content": "I am a factual chatbot that is excellent in word sense disambiguation."},
         {"role": "user", "content": query}
