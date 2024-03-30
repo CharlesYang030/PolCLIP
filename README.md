@@ -21,8 +21,8 @@ Our code has been implemented on Pytorch 2.0.1. To reproduce our experiments, pl
 
 Datasets | Instance | Instance type | Image | Image Size | Image Link | Metadata Size | Metadata Link
 --- | :---: | :---: | :---: | :---: | :---: | :---: | :---:
-Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download](https://pan.baidu.com/s/1f67hkkh0NxBpA6BffSkV2w?pwd=un3u) | 3.06GB | [Download](https://drive.google.com/file/d/1l5rBOQDXoTbeW0AXQWA8aGTld3O6lQGt/view?usp=sharing)
-Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download](https://pan.baidu.com/s/1f67hkkh0NxBpA6BffSkV2w?pwd=un3u) | 0.97GB | [Download](https://drive.google.com/file/d/1aRWlUg36IaaBF774CpCyqAtnOh11E-2u/view?usp=sharing)
+Image-Enhanced SemCor | 226,036 | Sentence | 181,123 | 195GB | [Download](https://drive.google.com/drive/folders/175fA1fP9yToMYl8uxqcnMYIxBjHypcyV?usp=sharing) | 3.06GB | [Download](https://drive.google.com/file/d/1l5rBOQDXoTbeW0AXQWA8aGTld3O6lQGt/view?usp=sharing)
+Image-Enhanced VWSD-KB | 48,469 | Phrase | 111,575 | 108GB | [Download](https://drive.google.com/drive/folders/175fA1fP9yToMYl8uxqcnMYIxBjHypcyV?usp=sharing) | 0.97GB | [Download](https://drive.google.com/file/d/1aRWlUg36IaaBF774CpCyqAtnOh11E-2u/view?usp=sharing)
 
 (2) The benchmarks of Textual-WSD and Visual-WSD.
 
