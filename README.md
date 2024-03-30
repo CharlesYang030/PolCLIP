@@ -31,9 +31,9 @@ Download the XL-WSD data at [https://sapienzanlp.github.io/xl-wsd/](https://sapi
 Download the V-WSD data at [https://raganato.github.io/vwsd/](https://raganato.github.io/vwsd/).
 
 ### 2. REPRODUCE OUR WORK
-(1) To train from the scratch, please run:
 If you don't have GPUs above 24GB, please use `generate_train_data.py` and adjust smaller `gloss_batch_size` (e.g. [10, 20]) and smaller `image_batch_size` (e.g. [50, 100]) to generate smaller `metadata` for training .
 
+(1) To train from the scratch, please run:
 ```.
 python main.py
 ```
